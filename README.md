@@ -20,5 +20,6 @@ Note: the AWS Go SDK assumes that you have your AWS credentials available in `$H
 
 These fine folks made similar tools that do roughly the same job. Sadly, none of them are written in Go.
 
+- http://willwarren.com/2014/07/03/roll-dynamic-dns-service-using-amazon-route53/
 - http://holgr.com/blog/2014/08/using-amazon-route-53-as-dynamic-dns-service/
 - https://github.com/holgr/php-ddns53
