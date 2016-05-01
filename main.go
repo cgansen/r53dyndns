@@ -33,7 +33,7 @@ func init() {
 }
 
 func main() {
-	resp, err := http.Get("http://www.telize.com/ip")
+	resp, err := http.Get("http://ipecho.net/plain")
 	if err != nil {
 		log.Fatalln("get error:", err)
 	}
@@ -70,7 +70,7 @@ func main() {
 		},
 		HostedZoneId: aws.String(hzid),
 	}
-	
+
 	if _, err = svc.ChangeResourceRecordSets(params); err != nil {
 		log.Fatalln("aws error:", err.Error())
 	}
